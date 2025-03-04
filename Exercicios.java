@@ -77,9 +77,11 @@ public class Exercicios {
          */
         String f = "Olá, Mundo!"; 
         String g = "Bem-vindo ao Java!";
-
+        //Mais efetivo se tivesse feito f + "bem-vindo ao Java" ao invés de criar um string full. Pouparia trabalho.
+        
         String full = f + " " + g; 
 
         System.out.println(full);
+        //EXERCICIO FEITO PORÉM PODERIA MELHORAR
     }
 }
